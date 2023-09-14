@@ -1,0 +1,268 @@
+*{
+
+    margin: 0px;
+
+    padding: 0%;
+
+ 
+
+}
+
+#header{
+
+    background-color: blue;
+
+    padding: 0px;
+
+}
+
+.row::after{
+
+    content: "";
+
+    display: block;
+
+    clear: both;
+
+}
+
+.left{
+
+    float: left;
+
+}
+
+.right{
+
+    float: right;
+
+}
+
+.container{
+
+    width: 1200px;
+
+    margin:  0 auto;
+
+}
+
+.col-1{
+
+    width: 55%;
+
+    margin: 12px 0px;
+
+}
+
+.col-2{
+
+    width: 43%;
+
+}
+
+.logo{
+
+    width: 25%;
+
+}
+
+img{
+
+    width: 100%;
+
+}
+
+.search{
+
+    width: 75%;
+
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+.col-2 ul li{
+
+    display: inline-block;
+
+    margin: 10px;
+
+    padding: 10px;
+
+    font-weight: 400;
+
+    font-size: larger;
+
+}
+
+.col-2 ul li a{
+
+    text-decoration: none;
+
+    letter-spacing: 0.5px;
+
+    color: #000;
+
+}
+
+i{
+
+    color: #000;
+
+}
+
+.search input[type="text"]{
+
+    width: 100%;
+
+    height: 40px;
+
+    margin-left: 2%;
+
+    border-radius: 8px;
+
+    border-color: #f0f5ff;
+
+}
+
+.search button{
+
+    display: none;
+
+}
+
+.product::after{
+
+    content: "";
+
+    display: block;
+
+    clear: both;
+
+}
+.left{
+    float: left;
+}
+
+#section-1{
+    background-color: #f0f5ff;
+    margin-top: 1px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+#section-1 h4{
+    margin-top: 12px;
+    color: #000;
+    font-weight: 500;
+}
+
+#section-1 .product img{
+   width: 80px;
+   height: 80px;
+}
+.left{
+    float: left;
+}
+#section-1 .product{
+    display:inline-block;
+    width:10%;
+    text-align: center;
+    margin-left: 9px;   
+}
+#section-2{
+    background-color: #ffffff;
+    margin top: 1px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#section-2 .product img{
+    width: 220px;
+    height: 150px;
+ }
+ a{
+    text-decoration: none;
+ }
+ #section-2 .product {
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(246, 241, 241, 0.897);
+    margin-right: 20px;
+    margin: 15px;
+    border: 1px solid;
+ }
+ #section-2 h4{
+    margin-top: 1px;
+    color: #000;
+    font-weight: 600;
+}
+h3{
+    text-align: center;
+    background-color: whitesmoke;
+}
+div.scrollmenu {
+    background-color: #fffcfc;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: rgb(56, 12, 232);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #f4f1f1;
+  }
+  #section-3{
+    background-color: #ffffff;
+    margin top: 1px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#section-3 .product img{
+    width: 220px;
+    height: 150px;
+ }
+ #section-3 .product {
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(246, 241, 241, 0.897);
+    margin-right: 20px;
+    margin: 15px;
+    border: 1px solid;
+ }
+ #section-3 h4{
+    margin-top: 1px;
+    color: #000;
+    font-weight: 600;
+}
+#section-4{
+    background-color: #ffffff;
+    margin top: 1px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#section-4 .product img{
+    width: 220px;
+    height: 150px;
+ }
+ #section-4 .product {
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(246, 241, 241, 0.897);
+    margin-right: 20px;
+    margin: 15px;
+    border: 1px solid;
+ }
+ #section-4 h4{
+    margin-top: 1px;
+    color: #000;
+    font-weight: 600;
+}
